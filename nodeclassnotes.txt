@@ -1,0 +1,159 @@
+2month 
+Nodejs is server side technology 
+Nodejs is used to develope the server which server http server and tcp server.
+Nodejs application can be developed by JS and TS.
+JS is a scripting language and doesn’t follow OOPs.
+TS is a programming language, follows OOPs and used by microsoft company.
+For building NodeJS application TS is recommended.
+//Framework follows MVC method. 
+NodeJS is a library which helps to build serverless application.
+NodeJS contain topic called ExpressJS which is framework and works for Rest Services such as GET, POST,PUT, HEAD, TRACE...etc.
+ExpressJS plays role in development environment such as MEAN Stack/MERN Stack/MEVN Stack
+Databases CRUD operations
+-MongoDB[NoSQL, JSON based DB]
+-MySQL DB
+-SQLServer DB
+-Oracle DB
+Middlewares-security thing
+Authentication
+-JWT auth.[Json web Token]
+HTTP Server(NImp)
+Chat App
+Multer Module[image upload and image download]
+Email sending
+PDF ,CSV file generation is related to front end technology
+Integration-Angular integration
+AWS Deployment
+Debugging
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------
+NodeJS
+=====================
+
+🟠NodeJS is a server side scripting language.
+🟠NodeJS used to develop servers.
+-HTTP server
+-TCP server
+We will build Node Application in two ways.
+-JavaScript
+-TypeScript
+JS is not object oriented.
+JS doesn’t support OOPs concept
+JS is an object based scripting language.
+TS is the programming language, provided by microsoft and follows OOPs.
+
+============================
+Questions
+1) Difference between object based and object oriented language.
+==============================
+ 🟠NodeJS supports modules(libraries)
+-predefined libraries and user defined libraries.
+
+--------------------------------------------------
+Modules
+===============================
+🟠1)http
+-http module used to build http server.
+🟠2)fs
+-fs stands for file system
+-fs module used to interact with the flat files[text files,xml files, json files]
+🟠3)express
+-express module used to develop the rest services[GET, POST, PUT, DELETE]
+🟠4)mongoDB 
+-mongoDB module is used to interact with the mongodb database without schema (rules and regulations).
+🟠5)mySQL
+-mySQL module is used to interact with the mySQL database
+🟠6)mssql
+-this module is used to interact with the mysql database.
+🟠7)multer
+-this module used to download and upload images from the server.
+🟠8)socket.io
+-socket.io module used to implement the chat applications
+🟠9)cors
+-cors module used to enable the ports communication.
+🟠10)body-parse
+-used to receive data from client applications.
+🟠11)JWT-simple
+-used to implement the token based authentication.
+🟠12)oradb
+-used to interact with oracle database.
+================================
+🟠we will download all the above modules using “npm” or ”yarn”.
+“npm” stands for node packaging manager.
+“npm” present in nodeJS.
+Synchronous | download modules one by one.
+Asynchronous | download modules all at a time or parallely.
+🟠“npm” is synchronous tool.
+🟠“yarn” is a asynchronous.
+🟠“yarn” given by facebook.
+“yarn” tool is a asynchronous tool.
+
+🗒Above modules downloads to “node_module” folders in current path.
+
+============================
+Questions
+1) Which tool will take less time? Yarn.
+2)Which tool consumes more bandwidth or internet? Yarn
+3)Diff between mongodb and mongoose. 
+mongodb[without schema] and mongodb[with schema]
+=============================================
+
+Software Installations
+----------------------------------------------------
+
+1)download and install nodejs
+Website: nodejs.org
+file: node-v18.15.0-linux-x64.tar.xz
+   >node -v
+   >npm -v
+
+2)install yarn tool
+cmd- >npm install -g yarn
+=>-g stands for global installation
+
+3)download and install VisualStudioCode
+Website: code.visualstudio.com
+file: VSCodeUserSetup-x64-1.51.1.exe
+
+
+Download modules
+-----------------------------------------------------------
+NPM
+----------
+>npm install -g express mongodb mongoose mysql –save
+
+Yarn
+------------
+>yarn add express mongodb mongoose mysql --save
+
+
+
+
+-------------------------------------------
+GIT HUB
+=============================
+1)Create new repository.
+2)Go to visual studio->command palette(to link git hub)->paste repository url
+3)Add files to the repository [git add .]
